@@ -1,0 +1,54 @@
+img {
+	width: 600px;
+	height: 500px;
+	border-radius: 10%;
+}
+
+.parakeets2{
+width: 80%;
+height: 80%;
+border-bottom-left-radius: 0px;
+border-top-right-radius: 0px;
+border: rgb(0, 161, 13) solid 4px;
+}
+
+h1 {
+	color: black;
+	font-size: 400%;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.line {
+	border: none;
+	height: 1px;
+	border-top: 10px dotted rgb(0, 161, 13);
+}
+
+.wikiapple {
+	width: 100%;
+	height: 100%;
+	border: 4px solid rgb(0, 161, 13);
+}
+
+body {
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: medium;
+	background: rgb(255, 255, 129);
+	color: rgb(0, 0, 0);
+}
+@keyframes pulseAnimation {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}
+
+.parakeets {
+  animation-name: pulseAnimation;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1.5s;
+  animation-direction: normal;
+  animation-fill-mode: both;
+	width: 80%;
+	height: 80%;
+	border: rgb(0, 161, 13) solid 4px
+}
